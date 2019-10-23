@@ -1,5 +1,75 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.q7 .q7__box{
+  width: 225px;
+  font-size: 16px;
+}
+.q7--float .q7__box{
+  margin-left: 50px;
+  float: left;
+  box-sizing: border-box;
+}
+.q7--float .q7__box:first-child{
+  margin-left: 0;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.q7--table .q7__inner{
+  display: table;
+}
+.q7--table .q7__box{
+  display: table-cell;
+  padding-left: 50px;
+  vertical-align: middle;
+}
+.q7--table .q7__box:first-child{
+  padding-left: 0;
+}
+.q7--inlineblock .q7__box{
+  display: inline-block;
+  margin-left: 50px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.q7--inlineblock .q7__inner{
+  font-size: 0;
+}
+.q7--inlineblock .q7__box:first-child{
+  margin-left: 0;
+}
+.q7--flex .q7__inner{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.q7--flex .q7__box{
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.q7--margin .q7__box.is-fixed{
+  width: 300px;
+  display: inline-block;
+}
+.q7--margin .q7__box{
+  vertical-align: top;
+}
+.q7--margin .q7__inner{
+  font-size: 0;
+}
+.q7--margin .is-variable{
+  margin-left: 50px;
+}
+.q7--margin .q7__box.is-variable{
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
 /* 回答はここに書いてね */

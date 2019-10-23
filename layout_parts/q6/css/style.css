@@ -27,7 +27,7 @@
   vertical-align: middle;
   text-align: center;
 }
-.q6_box_table_{
+.q6_box_table{
   display: inline-block;
   background-color: #fff;
   padding: 10px;
@@ -57,11 +57,10 @@
 }
 .q6__box__inner.flex{
   position: absolute;
-   top: 50%;
-   left: 50%;
-   text-align: center;
-   -webkit-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 /* 回答はここに書いてね */
