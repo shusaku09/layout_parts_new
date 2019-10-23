@@ -1,5 +1,24 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q8--btn{
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+}
+.q8--btn .q8__btn:first-child{
+  margin-left: 0;
+}
+.q8__btn--common{
+  background-color: #00bcd4;
+  
+}
+.q8__btn--error{
+  background-color: #ff4081;
+}
+.q8__btn--disabled{
+  background-color: #E5E5E5;
+}
 
 /* 回答はここに書いてね */
